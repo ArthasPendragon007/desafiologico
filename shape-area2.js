@@ -1,15 +1,10 @@
-function circleArea(raio){
-};
-function squareArea(lado){
-};
+const PI = Math.PI
+function circleArea(raio) {
+    return PI * raio * raio;
+  }
 const decionInput = process.argv[2];
-
-if decionInput == 1{
-
-    module.exports.circleArea = function(circleArea) {
-        return (fahrenheit - 32) * (5/9);
-    };
-}
-else if decionInput == 2
-
-
+const decionValue = shapeArea(decionInput)
+  module.exports.circleArea = circleArea;
+  module.exports.squareArea = function(lado) {
+    return lado*lado
+  };
